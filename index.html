@@ -4,91 +4,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="initial-scale=1.0">
-  <title>Document</title>
+  <title>Tribute Page</title>
 
   <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
 </head>
 
 <body>
-  <main id="main">
-    <section id="overview">
-      <div id="bgshape-1"></div>
+  <div class="logo-container">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Golden_State_Warriors_logo.svg" alt="Warriors Logo" class="logo">
+  </div>
 
-      <div id="fixer">
-        <div id="left">
-          <div id="img-div-3"></div>
-        <div id="img-div-2"></div>
-        <div id="img-div"> 
-          <img id="image" src="Web_files/picture.jpg">
-          <figcaption id="img-caption">
-            Caption Caption
-          </figcaption>
-        </div>
-        </div>
+  <div class="glass-container">
+    <h1>Stephen Curry</h1>
+    <p class="subtitle">"Changing the Game, One Three at a Time"</p>
 
-        <div id="right">
-          <h1 id="title">M****l B. B********a</h1>
-          <br>
-          <p id="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis, sapiente et, perspiciatis voluptatum animi, amet debitis 
-            architecto unde officiis rem distinctio vero eius hic impedit illum ipsa sed eum.
-          </p>
-          <br>
-          <br>
-          <br>
-          <blockquote>
-            " Who begins too much accomplishes little. "
-          </blockquote>
-          <a href="#tribute-info" id="tribute-link" target="_blank">asdas</a>
-        </div>
-      </div>
-    </section>
+    <div class="biography">
+      <h2>Biography</h2>
+      <p>
+        Wardell Stephen Curry II, born March 14, 1988, in Akron, Ohio, is an American professional basketball player for the Golden State Warriors of the NBA. Known as the greatest shooter in NBA history, Curry is credited with revolutionizing the sport by inspiring teams to utilize the three-point shot more frequently.
+      </p>
+      <p>
+        He is the son of former NBA player Dell Curry and the older brother of NBA guard Seth Curry. He played college basketball at Davidson, where he became the school's all-time leading scorer and led them to an Elite Eight appearance in 2008.
+      </p>
+      <p>
+        Drafted 7th overall by the Warriors in 2009, Curry has since become a two-time MVP (including the first-ever unanimous MVP) and a four-time NBA Champion. Off the court, he's a philanthropist and role model, deeply involved in charitable work through his Eat. Learn. Play. Foundation.
+      </p>
+    </div>
 
-    <section id="tribute-info">
-      <h1 id="title">Timeline</h1>
-      <div id="fixer-2">
-        <div id="entry">
-          <div id="card-A"></div>
-          <div id="card-B">
-            <h1 id="year">2002</h1>
-            <p>Born in Naguilian, La Union</p>
-          </div>
-        </div> 
+    <div class="image-section">
+      <img src="https://i.pinimg.com/originals/e4/da/5e/e4da5e77b40adaf8ec688e7a8c395fb1.jpg" alt="Stephen Curry" />
+      <figcaption>Stephen Curry – Born March 14, 1988</figcaption>
+    </div>
 
-        <div id="entry">
-          <div id="card-A"></div>
-          <div id="card-B">
-            <h1 id="year">2015</h1>
-            <p>Graduated Elementary</p>
-          </div>
-        </div>
+    <div class="info">
+      <h2>Career Highlights</h2>
+      <ul>
+        <li>4× NBA Champion (2015, 2017, 2018, 2022)</li>
+        <li>2× NBA Most Valuable Player (2015, 2016)</li>
+        <li>9× NBA All-Star (as of 2024)</li>
+        <li>NBA All-Time Leader in 3-point field goals made</li>
+        <li>2022 NBA Finals MVP</li>
+        <li>Davidson all-time leading scorer</li>
+      </ul>
+    </div>
 
-        <div id="entry">
-          <div id="card-A">
-            <img 
-              src="https://yt3.ggpht.com/-4H99cyv2mc4/AAAAAAAAAAI/AAAAAAAAAAA/OEInONRpaK4/s900-c-k-no/photo.jpg" 
-              id="card-A-pic">
-          </div>
-          <div id="card-B">
-            <h1 id="year">2019</h1>
-            <p>Graduated Jr. High School and worked as a service crew at McDonald's</p>
-          </div>
-        </div>
+    <button onclick="showQuote()">Show Inspirational Quote</button>
+    <p id="quote"></p>
 
-        <div id="entry">
-          <div id="card-A"></div>
-          <div id="card-B">
-            <h1 id="year">2021</h1>
-            <p>Graduated Sr. High School</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-  </main>
-
-
-
-  
+    <footer>
+      <p>Learn more about <strong>Stephen Curry</strong> on 
+        <a href="https://en.wikipedia.org/wiki/Stephen_Curry" target="_blank">Wikipedia</a>.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
